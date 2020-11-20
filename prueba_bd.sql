@@ -156,4 +156,133 @@ VALUES (
     'Prenda de vestir 3'
 );
 
+-- 8 productos
+
+INSERT INTO productos (
+    id,
+    nombre_producto,
+    descripcion,
+    valor_unitario,
+    id_categoria
+)
+VALUES (
+    1,
+    'Pantalon Largo',
+    'Pantalon largo, color azul',
+    15000,
+    1
+);
+
+INSERT INTO productos (
+    id,
+    nombre_producto,
+    descripcion,
+    valor_unitario,
+    id_categoria
+)
+VALUES (
+    2,
+    'Pantalon Corto',
+    'Pantalon Corto, color Café',
+    10000,
+    1
+);
+
+INSERT INTO productos (
+    id,
+    nombre_producto,
+    descripcion,
+    valor_unitario,
+    id_categoria
+)
+VALUES (
+    3,
+    'Pantalon de Jeans',
+    'Pantalon de Jeans, color negro',
+    16000,
+    1
+);
+
+INSERT INTO productos (
+    id,
+    nombre_producto,
+    descripcion,
+    valor_unitario,
+    id_categoria
+)
+VALUES (
+    4,
+    'Polera sin cuello',
+    'Polera sin cuello, color negro',
+    13000,
+    2
+);
+
+INSERT INTO productos (
+    id,
+    nombre_producto,
+    descripcion,
+    valor_unitario,
+    id_categoria
+)
+VALUES (
+    5,
+    'Polera con cuello',
+    'Polera con cuello, color verde',
+    12000,
+    2
+);
+
+INSERT INTO productos (
+    id,
+    nombre_producto,
+    descripcion,
+    valor_unitario,
+    id_categoria
+)
+VALUES (
+    6,
+    'Polera normal',
+    'Polera normal, color Azul',
+    10000,
+    2
+);
+
+INSERT INTO productos (
+    id,
+    nombre_producto,
+    descripcion,
+    valor_unitario,
+    id_categoria
+)
+VALUES (
+    7,
+    'Falda Larga',
+    'Falda Larga, color Azul',
+    20000,
+    3
+);
+
+INSERT INTO productos (
+    id,
+    nombre_producto,
+    descripcion,
+    valor_unitario,
+    id_categoria
+)
+VALUES (
+    8,
+    'Falda Corta',
+    'Falda Corta, color blanco',
+    18000,
+    3
+);
+
+
+
+
+
+
+
+
 
