@@ -641,3 +641,34 @@ VALUES (
     1,
     10000
 );
+
+-- Queries
+-- ¿Que cliente realizó la compra más cara?
+
+SELECT facturas.n_factura, facturas.total, facturas.id_cliente, clientes.nombre  
+FROM facturas   
+INNER JOIN clientes   
+ON facturas.id_cliente = clientes.id 
+ORDER BY facturas.total DESC
+LIMIT 1;
+
+--¿Que cliente pagó sobre 100 de monto? cambié el monto  de 100 a 60.000 ya que coloque valores mayores, espero se entienda
+
+SELECT facturas.n_factura, facturas.total, facturas.id_cliente, clientes.nombre  
+FROM facturas   
+INNER JOIN clientes   
+ON facturas.id_cliente = clientes.id 
+WHERE facturas.total > 60000
+LIMIT 1;
+
+-- ¿Cuantos clientes han comprado el producto 6. 
+
+SELECT listado_productos.id_producto, listado_productos.n_factura, clientes.nombre   
+FROM listado_productos   
+INNER JOIN facturas   
+ON listado_productos.n_factura = facturas.n_factura AND listado_productos.id_producto  = 6 
+INNER JOIN clientes
+ON clientes.id = facturas.id_cliente;
+
+
+-- Todo Funciona probado en terminal...
