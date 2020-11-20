@@ -120,3 +120,40 @@ VALUES (
     '55555555-5',
     'pasaje 5, santiago'
 );
+
+-- 3 categorias
+
+INSERT INTO categoria (
+    id,
+    nombre,
+    descripcion
+)
+VALUES (
+    1,
+    'Pantalones',
+    'Prenda de vestir 1'
+);
+
+INSERT INTO categoria (
+    id,
+    nombre,
+    descripcion
+)
+VALUES (
+    2,
+    'Poleras',
+    'Prenda de vestir 2'
+);
+
+INSERT INTO categoria (
+    id,
+    nombre,
+    descripcion
+)
+VALUES (
+    3,
+    'Faldas',
+    'Prenda de vestir 3'
+);
+
+
