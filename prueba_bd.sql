@@ -52,3 +52,71 @@ CREATE TABLE listado_productos(
     FOREIGN KEY(n_factura) REFERENCES facturas(n_factura),
     FOREIGN KEY(id_producto) REFERENCES productos(id)
 );
+
+-- CARGANDO DATOS
+-- 5 clientes
+
+INSERT INTO clientes (
+    id,
+    nombre,
+    rut,
+    direccion
+)
+VALUES (
+    1,
+    'Claudia',
+    '11111111-1',
+    'pasaje 1, santiago'
+);
+
+INSERT INTO clientes (
+    id,
+    nombre,
+    rut,
+    direccion
+)
+VALUES (
+    2,
+    'Fernanda',
+    '22222222-2',
+    'pasaje 2, santiago'
+);
+
+INSERT INTO clientes (
+    id,
+    nombre,
+    rut,
+    direccion
+)
+VALUES (
+    3,
+    'Florencia',
+    '33333333-3',
+    'pasaje 3, santiago'
+);
+
+INSERT INTO clientes (
+    id,
+    nombre,
+    rut,
+    direccion
+)
+VALUES (
+    4,
+    'Andrés',
+    '44444444-4',
+    'pasaje 4, santiago'
+);
+
+INSERT INTO clientes (
+    id,
+    nombre,
+    rut,
+    direccion
+)
+VALUES (
+    5,
+    'Pepa',
+    '55555555-5',
+    'pasaje 5, santiago'
+);
